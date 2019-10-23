@@ -3,7 +3,6 @@ class Kitty {
 
   }
 
-  }
 }
 
 module.exports = Kitty;

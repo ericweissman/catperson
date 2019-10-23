@@ -1,0 +1,28 @@
+{
+  "name": "catperson",
+  "version": "1.0.0",
+  "description": "Catpeople are great!",
+  "main": "catperson.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericweissman/catperson.git"
+  },
+  "author": "Eric Weissman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericweissman/catperson/issues"
+  },
+  "homepage": "https://github.com/ericweissman/catperson#readme"
+}

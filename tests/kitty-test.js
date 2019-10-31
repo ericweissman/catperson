@@ -17,14 +17,14 @@ describe('Kitty', function() {
   });
 
   it.skip('should be devious by default, but should be able to have their own personality', function() {
-    var nigel = new Kitty({name: 'Nigel', colors: ['white, grey']});
-    var pump = new Kitty({name: 'Pumpernickle', colors: ['brown', 'black', 'grey'], personality: 'dastardly'});
+    var nigel = new Kitty({name: 'Nigel', colors: ['white, grey'], type: 'medium hair'});
+    var pump = new Kitty({name: 'Pumpernickle', type: 'short hair', colors: ['brown', 'black', 'grey'], personality: 'dastardly'});
     assert.equal(nigel.personality, 'devious');
     assert.equal(pump.personality, 'dastardly');
   });
 
   it.skip('should be able to eviscerate soft objects', function() {
-    var nigel = new Kitty({name: 'Nigel', colors: ['white, grey']});
+    var nigel = new Kitty({name: 'Nigel', type: 'medium hair', colors: ['white, grey']});
     var favoriteToys = [
       {name: 'bottlecap', material: 'plastic', status: 'playable'},
       {name: 'stuffed animal', material: 'soft', status: 'playable'},

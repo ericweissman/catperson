@@ -1,6 +1,6 @@
 # Kitty and Catperson
 
-![Catperson](https://media.giphy.com/media/wysyxWt4ZlQ9q/giphy.gif)
+![Catperson](https://media.giphy.com/media/wysyxWt4ZlQ9q/giphy.gif =100x)
 
 
 ## Installation Steps
